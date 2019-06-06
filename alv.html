@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vamo a hacer un Dibujo</title>
+    <style type="text/css">
+        body{
+            background-color: #411a82;
+            color: white;
+            font-family: Verdana;
+        }
+        h1{
+            font-family: Helvetica, Geneva, Arial, SunSans-Regular, sans-serif;
+        }
+        input{
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aqui abajo estara tu dibujo</h1>
+    <p>Cuantas lineas quieres? <input type="text" id="texto_lineas"/><br>
+        y el color del dibujo en ingles o exadecimal<br>   
+        <input type="button" value="Rojo" id="color_rojo"/>
+        <input type="button" value="Amarillo" id="color_amarillo"/>
+        <input type="button" value="Azul" id="color_azul"/>
+        <input type="button" value="Blanco" id="color_blanco"/>
+        <input type="button" value="Verde" id="color_verde"/>
+
+        <input type="button" value="A numa prro" id="boton_lineas"/>
+    </p>
+    <canvas width="500" height="500" id="hola"></canvas>
+    
+    <p>Y pos asi quedo tu dibujo</p>
+    <script src="dibujo.js"></script>
+</body>
+</html>
